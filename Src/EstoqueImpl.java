@@ -1,7 +1,8 @@
+// EstoqueImpl.java
 import java.util.ArrayList;
 import java.util.List;
 
-class EstoqueImpl implements Estoque {
+public class EstoqueImpl implements Estoque {
     private List<Produto> produtos = new ArrayList<>();
 
     @Override
@@ -17,6 +18,7 @@ class EstoqueImpl implements Estoque {
                 return produto;
             }
         }
+        System.out.println("Produto não encontrado.");
         return null;
     }
 

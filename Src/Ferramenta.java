@@ -1,4 +1,5 @@
-class Ferramenta extends Produto {
+// Ferramenta.java
+public class Ferramenta extends Produto {
     private String tipo;
 
     public Ferramenta(int id, String nome, double preco, String tipo) {
